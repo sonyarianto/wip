@@ -1,0 +1,17 @@
+{
+  "name": "svelte-app",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+            "build": "bun build ./src/main.ts --outdir ./dist --plugins=bun-plugin-svelte",
+            "dev": "bun build ./src/main.ts --outdir ./dist --plugins=bun-plugin-svelte --watch"
+  },
+  "devDependencies": {
+    "svelte": "^4.2.12",
+    "bun-plugin-svelte": "latest", // Use latest, or remove version for default
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    // svelte removed from here as it's a dev dependency for compilation
+  }
+}

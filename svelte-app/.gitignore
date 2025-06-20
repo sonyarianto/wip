@@ -1,0 +1,10 @@
+# Ignore Node.js modules, Bun modules, etc.
+node_modules/
+.DS_Store
+
+# Ignore build output
+dist/
+
+# Ignore other common files
+.env
+*.log
